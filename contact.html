@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Адвокатский кабинет - контакты</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/fontawesome-all.min.js"></script>
+    <style>
+      body {
+        padding-top: 57px;
+      }
+    </style>
+	</head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary border-bottom fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Адвокатский кабинет</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link" >Услуги</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a href="team.html" class="nav-link">Команда</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link active" aria-current="page">Контакты</a>
+            </li>
+          </ul>
+          <div class="dropdown">
+            <button type="button" class="btn btn-light btn-sm dropdown-toggle" id="dropdownLanguage" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Язык</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
+              <a href="https://companyname.com/language" class="dropdown-item">English</a>
+              <a href="https://companyname.com/language" class="dropdown-item">German</a>
+              <a href="https://companyname.com/language" class="dropdown-item">French</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-3 my-sm-5">
+      <h1 class="text-center mb-sm-4">Контакты</h1>
+      <div class="row">
+          <div class="col-12 col-md-6">
+              <h2>Адрес:</h2>
+              <address>
+                  <strong>Адвокатский кабинет</strong><br>
+                  Улица<br>
+                  Индекс<br>
+                  <i class="fas fa-fw fa-phone"></i><a href="tel:+1234567890">(123) 456-7890</a><br>
+                  <i class="fas fa-fw fa-envelope"></i><a href="mailto:info@domain.com">info@domain.com</a><br>
+              </address>
+          </div>
+          <div class="col-12 col-md-6">
+            <h2>Часы работы:</h2>
+            <p>
+                Понедельник-Четверг: <span class="float-end">9 - 18</span><br>
+                Пятница-Суббота: <span class="float-end">9 - 18</span><br>
+                Воскресенье: <span class="float-end">9 - 18</span>
+            </p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12 col-lg-6 mb-3">
+            <h2>Запись на консультацию:</h2>
+            <form>
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Имя</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-user"></i>
+                                </span>
+                                <input type="text" id="name" class="form-control" name="name" placeholder="Имя" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Имя</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-envelope"></i>
+                                </span>
+                                <input type="email" id="email" class="form-control" name="email" placeholder="example@emal.com" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="mb-3">
+                            <label for="telephone" class="form-label">Телефон</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-phone"></i>
+                                </span>
+                                <input type="tel" id="telephone" class="form-control" name="telephone" placeholder="0123456789">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <div class="mb-3">
+                            <label for="department" class="form-label">Специализация:</label>
+                            <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-home"></i></span>
+                            <select name="department" id="department" class="form-select" aria-describedby="department-help-block" required>
+                                <option value="">- выбрать здесь -</option>
+                                <option value="criminal">уголовное право</option>
+                                <option value="administrative">административное право</option>
+                                <option value="civil">гражданское право</option>
+                                <option value="constitutional">конституционное право</option>
+                            </select>
+                        </div>
+                        <small id="department-help-block" class="form-text">Пожалуйста, выберите специализацию</small>
+                    </div>
+                </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Сообщение:</label>
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                        <textarea class="form-control" name="message" id="message" rows="5" placeholder="Напишете Ваше сообщение..." required></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Послать</button>
+                <button type="reset" class="btn btn-outline-primary">Заново</button>
+            </form>
+          </div>
+          <div class="col-12 col-lg-6">
+              <h2>Где мы находимся:</h2>
+              <div class="ratio ratio-4x3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.547560301664!2d50.08398771527449!3d53.19009549410519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41661f44a60cdeab%3A0x14fd70a5aa216332!2sSamara!5e0!3m2!1sen!2sru!4v1640974752460!5m2!1sen!2sru" allowfullscreen></iframe>
+                  
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="small bg-light">
+      <div class="container py-3 py-sm-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3">
+            <h6>Quick links</h6>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="services.html">Услуги</a></li>
+              <li><a href="about.html">О нас</a></li>
+              <li><a href="team.html">Команда</a></li>
+              <li><a href="contact.html">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h6>Information</h6>
+            <ul class="list-unstyled">
+              <li><a href="#0">Правовая информация</a></li>
+              <li><a href="#0">Конкурс</a></li>
+              <li><a href="#0">Часто задаваемые вопросы</a></li>
+              
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h6>Follow us</h6>
+            <ul class="list-unstyled">
+              <li><a href="#0"><i class="fab fa-fw fa-facebook"></i> Facebook</a></li>
+              <li><a href="#0"><i class="fab fa-fw fa-instagram"></i> Instagram</a></li>
+              <li><a href="#0"><i class="fab fa-fw fa-twitter"></i> Twitter</a></li>
+              <li><a href="#0"><i class="fab fa-fw fa-youtube"></i> YouTube</a></li>
+              <li><a href="#0"><i class="fab fa-fw fa-linkedin"></i> LinkedIn</a></li>
+       
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h6>Наш адрес</h6>
+            <address>
+              <strong>Адвокатский кабинет</strong><br>
+              Улица<br>
+              Индекс<br>
+              <i class="fas fa-fw fa-phone"></i><a href="tel:+1234567890">(846) 456-7890</a><br>
+              <i class="fas fa-fw fa-envelope"></i><a href="mailto:info@domain.com">info@domain.com</a>
+            </address>
+          </div>
+        </div>
+        <ul class="list-inline mt-2 mb-0 text-center">
+          <li class="list-inline-item">&copy; 2021 Адвокатский кабинет</li>
+          <li class="list-inline-item"> All rights reserved.</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
