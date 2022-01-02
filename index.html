@@ -19,7 +19,7 @@
         <a href="index.html" class="navbar-brand">Адвокатский кабинет</a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto">
             <li class="nav-item active">
@@ -28,9 +28,25 @@
             <li class="nav-item">
               <a href="services.html" class="nav-link">Услуги</a>
             </li>
+
+            <li class="navbar-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="expertise" data-bs-toggle="dropdown" role="button" aria-expanded="false">Специализация</a>
+                <ul class="dropdown-menu" aria-labelledby="expertise">
+                  <li>
+                    <a href="criminal.html" class="dropdown-item">уголовно-правовое направление</a>
+                    </li>
+                    <li>
+                    <a href="criminal.html" class="dropdown-item">гражданско-правовое направление</a>
+                  </li>
+                  <li>
+                  <a href="criminal.html" class="dropdown-item">административное судопроизводство</a>
+                  </li>
+                </ul>
+              </li>
+
             <li class="navbar-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" id="services" data-bs-toggle="dropdown" role="button" aria-expanded="false">Гонорар</a>
-              <ul class="dropdown-menu" aria-labelledby="services">
+              <ul class="dropdown-menu" aria-labelledby="payment">
                 <li>
                   <a href="pricelist.html" class="dropdown-item">Минимальные ставки гонорара</a>
                   </li>
@@ -57,7 +73,7 @@
           <form>
             <div class="input-group">
               <input type="search" class="form-control" placeholder="Искать текст..." aria-label="Search input">
-              <button type="submit" class="btn btn-info">Поиск</button>
+              <button type="submit" class="btn btn-outline-light">Поиск</button>
             </div>
           </form>
           <!-- <div class="dropdown">
