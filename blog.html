@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Адвокатский кабинет - домашняя страница</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/fontawesome-all.min.js"></script>
+    <style>
+            #section-hero {
+            background-image: url('img/photo2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+    </style>
+	</head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand"><i class="fas fa-balance-scale" aria-hidden="true"></i> АК</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link active" aria-current="page">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Услуги</a>
+            </li>
+
+            <li class="navbar-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="expertise" data-bs-toggle="dropdown" role="button" aria-expanded="false">Специализация</a>
+                <ul class="dropdown-menu" aria-labelledby="expertise">
+                  <li>
+                    <a href="criminal.html" class="dropdown-item">уголовно-правовое направление</a>
+                    </li>
+                    <li>
+                    <a href="criminal.html" class="dropdown-item">гражданско-правовое направление</a>
+                  </li>
+                  <li>
+                  <a href="criminal.html" class="dropdown-item">административное судопроизводство</a>
+                  </li>
+                </ul>
+              </li>
+
+            <li class="navbar-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="services" data-bs-toggle="dropdown" role="button" aria-expanded="false">Гонорар</a>
+              <ul class="dropdown-menu" aria-labelledby="payment">
+                <li>
+                  <a href="pricelist.html" class="dropdown-item">Минимальные ставки гонорара</a>
+                  </li>
+                  <li>
+                  <a href="https://paso.ru/reestr-advokatskix-obrazovanij.html" class="dropdown-item" target="_blank">Реестр адвокатских образований</a>
+                </li>
+                <li>
+                <a href="https://fparf.ru/news/fpa/kes-dala-novye-razyasneniya-/" class="dropdown-item" target="_blank">Комиссия по этике и стандартам</a>
+                </li>
+              </ul>
+            </li>
+
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">Описание</a>
+            </li>
+            <li class="nav-item">
+              <a href="team.html" class="nav-link">Команда</a>
+            </li>
+            <li class="nav-item">
+                <a href="blog.html" class="nav-link">Блог</a>
+              </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Контакты</a>
+            </li>
+          </ul>
+          <form>
+            <div class="input-group">
+              <input type="search" class="form-control" placeholder="Искать текст..." aria-label="Search input">
+              <button type="submit" class="btn btn-outline-light">Поиск</button>
+            </div>
+          </form>
+          
+        </div>
+      </div>
+    </nav>
+
+<!-- Cards -->
+<div class="container mt-1 mt-sm-3 mt-md-5">
+      <div class="row">
+        <h1 class="mb-5 mt-5 text-center display-1">Новости</h1>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 mb-xl-0">
+          <div class="card">
+            <div class="card-header small">Опубликовано: <time datetime="2021-12-30">30-12-2021</time></div>
+            <div class="card-body">
+              <h5 class="card-title">Хинштейн предложил лишать гражданства за ненависть к РФ</h5>
+              <p class="card-text">Депутат Госдумы считает, что за это оставлять без гражданства можно и лиц, получивших его по праву рождения, передает РИА «Новости». Он уточнил, что речь идет о российских оппозиционерах. Накануне президент Владимир Путин внес в ГД законопроект об институте прекращения гражданства.</p>
+              </div>
+              <div class="card-footer d-grid">
+                <a href="https://ria.ru/20211230/grazhdanstvo-1766100448.html" class="btn btn-primary" target="_blank">Подробно</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 mb-xl-0">
+            <div class="card">
+              <div class="card-header small">Опубликовано: <time datetime="2021-12-30">30-12-2021</time></div>
+              <div class="card-body">
+                <h5 class="card-title">Суд подтвердил штраф для Google из-за «Царьграда»</h5>
+                <p class="card-text"> Арбитражный суд Московского округа отказал американской компании в приостановке начисления штрафа на время рассмотрения спора в кассации, сообщает «Коммерсант». Компания утверждает, что решение суда полностью исполнено американским ответчиком по делу: аккаунт канала разблокирован.</p>
+                </div>
+                <div class="card-footer d-grid">
+                  <a href="https://www.kommersant.ru/doc/5154779" target="_blank" class="btn btn-primary">Подробно</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 mb-md-0 mb-lg-3 mb-xl-0">
+              <div class="card">
+                <div class="card-header small">Опубликовано: <time datetime="2021-12-30">30-12-2021</time></div>
+                <div class="card-body">
+                  <h5 class="card-title">МВД подготовило параметры допустимого оружия самообороны</h5>
+                  <p class="card-text">Проект приказа касается газовых и травматических пистолетов и револьверов, механических распылителей, аэрозольных устройств и электрошокеров, сообщают «Известия». В частности, травматическое оружие не должно быть пригодно для стрельбы боевыми патронами.</p>
+                  </div>
+                  <div class="card-footer d-grid">
+                    <a href="https://iz.ru/1271609/2021-12-30/mvd-podgotovilo-parametry-dopustimogo-v-rf-oruzhiia-samooborony" target="_blank" class="btn btn-primary">Подробно</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card">
+                  <div class="card-header small">Опубликовано: <time datetime="2021-12-29">29-12-2021</time></div>
+                  <div class="card-body">
+                    <h5 class="card-title">Глава Конституционного суда допустил возвращение смертной казни</h5>
+                    <p class="card-text">Валерий Зорькин в своем выступлении о смысле конституционного правосудия отметил, что сейчас смертная казнь в России не требуется, но это может измениться в будущем, передают «Известия». Он также высказался о присоединении Крыма и проблеме исполнения требований международных судов и норм.</p>
+                    </div>
+                    <div class="card-footer d-grid">
+                      <a href="http://www.ksrf.ru/ru/News/Speech/Pages/ViewItem.aspx?ParamId=91" target="_blank" class="btn btn-primary">Подробно</a>
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </div>
+      
+    </div>
+</div>
+    <!-- Footer -->
+    <footer class="small bg-light">
+      <div class="container py-3 py-sm-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3">
+            <h6>Quick links</h6>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-decoration-none">Главная</a></li>
+              <li><a href="services.html" class="text-decoration-none">Услуги</a></li>
+              <li><a href="about.html" class="text-decoration-none">О нас</a></li>
+              <li><a href="team.html" class="text-decoration-none">Команда</a></li>
+              <li><a href="contact.html" class="text-decoration-none">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h6>Information</h6>
+            <ul class="list-unstyled">
+              <li><a href="#0" class="text-decoration-none">Правовая информация</a></li>
+              <li><a href="#0" class="text-decoration-none">Конкурс</a></li>
+              <li><a href="#0" class="text-decoration-none">Часто задаваемые вопросы</a></li>
+              
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h6>Follow us</h6>
+            <ul class="list-unstyled">
+              <li><a href="#0" class="text-decoration-none"><i class="fab fa-fw fa-facebook"></i> Facebook</a></li>
+              <li><a href="#0" class="text-decoration-none"><i class="fab fa-fw fa-instagram"></i> Instagram</a></li>
+              <li><a href="#0" class="text-decoration-none"><i class="fab fa-fw fa-twitter"></i> Twitter</a></li>
+              <li><a href="#0" class="text-decoration-none"><i class="fab fa-fw fa-youtube"></i> YouTube</a></li>
+              <li><a href="#0" class="text-decoration-none"><i class="fab fa-fw fa-linkedin"></i> LinkedIn</a></li>
+       
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h6>Наш адрес</h6>
+            <address>
+              <strong>Адвокатский кабинет</strong><br>
+              Улица<br>
+              Индекс<br>
+              <i class="fas fa-fw fa-phone"></i><a href="tel:+1234567890" class="text-decoration-none"> (846) 456-7890</a><br>
+              <i class="fas fa-fw fa-envelope"></i><a href="mailto:info@domain.com" class="text-decoration-none"> info@domain.com</a>
+            </address>
+          </div>
+        </div>
+        <ul class="list-inline mt-2 mb-0 text-center">
+          <li class="list-inline-item">&copy; 2021 Адвокатский кабинет.</li>
+          <li class="list-inline-item"> All rights reserved.</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
